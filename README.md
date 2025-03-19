@@ -75,17 +75,17 @@ El cliente dividirá la operación en **dos pasos** y delegará el cálculo entr
 
 #### **Cliente (`client.py`):**
 ```
-Ingrese una expresión con tres operaciones (ej: '10 + 5 * 2') o 'q' para salir: 10 + 5 * 2
-Resultado final: (10 + 5) * 2 = 30
+Ingrese una expresión con tres operaciones (ej: '20 * 10 / 2') o 'q' para salir: 10 * 5 - 2
+Resultado final: 10 * 5 - 2 = 48
 ```
 
 #### **Servidor de Operación 1 (`server_op1.py`):**
 ```
-Procesando: 10 + 5 = 15
+Procesando: 10 * 5 = 50
 ```
 
 #### **Servidor de Operación 2 (`server_op2.py`):**
 ```
-Procesando: 15 * 2 = 30
+Procesando: 50 - 2 = 48
 ```
 
