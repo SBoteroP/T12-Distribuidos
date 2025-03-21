@@ -47,7 +47,7 @@ def run():
         except ValueError:
             print("Invalid input! Try again.")
         except grpc.RpcError as e:
-            print(f"⚠️ Error connecting to server ({server_ip}): {e.code()}")
+            print(f"⚠️ Error connecting to server ({server_ip})")
             break
 
 if __name__ == '__main__':
