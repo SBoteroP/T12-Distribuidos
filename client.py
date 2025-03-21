@@ -4,7 +4,7 @@ import archivo_pb2_grpc
 
 def run():
     # Conectar al servidor de cálculo en una IP remota
-    server_ip = "10.43.103.204"  # ⚠️ Reemplaza con la IP del servidor de cálculo
+    server_ip = "10.43.103.204"  
     channel = grpc.insecure_channel(f"{server_ip}:50053")
     stub = archivo_pb2_grpc.CalculationStub(channel)
 
